@@ -15,8 +15,7 @@ export default class ChromeBoisDomain extends Component {
   /* if the key pressed was 's', then it should call `resize` with '-' 
    */
   
-  handleOnClick = (e) => {
-    e.preventDefault()
+  handleOnClick = () => {
     toggleCycling()
   }
   /* TODO: Create an event handler which, when fired, invokes the provided
