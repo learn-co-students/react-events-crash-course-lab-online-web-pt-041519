@@ -16,6 +16,7 @@ export default class ChromeBoisDomain extends Component {
    */
   
   handleOnClick = (e) => {
+    e.preventDefault()
     toggleCycling()
   }
   /* TODO: Create an event handler which, when fired, invokes the provided
